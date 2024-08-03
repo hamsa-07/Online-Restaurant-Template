@@ -1,0 +1,261 @@
+:root{
+    --peru:#000000;
+    --black:#222;
+    --white:#fff;
+    --light-black:#666;
+    --light-white:#ccc;
+    --light-bg:#f5f5f5;
+    --dark-bg:rgba(0,0,0,.7);
+    --border:.1rem solid #aaa;
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+ 
+ 
+    
+   --transition-1: 250ms ease;
+   --transition-2: 500ms ease;
+   --transition-3: 1000ms ease;
+ }
+ 
+ *{
+    font-family: 'Open Sans', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all 0.4s cubic-bezier(.43,1.1,.62,1.08);
+    text-transform: capitalize;
+ }
+ body{
+    background-color: rgb(245, 244, 245);
+ }
+ 
+ * > img{
+    user-select: none;
+    pointer-events: none;
+ }
+ 
+ html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+ }
+ 
+ html::-webkit-scrollbar{
+    width: 1rem;
+ }
+ 
+ html::-webkit-scrollbar-track{
+    background-color: var(--white);
+ }
+ 
+ html::-webkit-scrollbar-thumb{
+    background-color: var(--peru);
+ }
+ 
+ section{
+    padding:5rem 10%;
+ }
+ 
+ .heading{
+    text-align: center;
+    margin-bottom: 3rem;
+ }
+ 
+ .heading span{
+    font-size: 2.5rem;
+    color:var(--peru);
+ }
+ 
+ .heading h3{
+    font-size: 4.5rem;
+    color:var(--black);
+ }
+ 
+ .btn{
+    margin-top: 1rem;
+    display: inline-block;
+    background: var(--peru);
+    color:var(--white);
+    font-size: 2rem;
+    cursor: pointer;
+    padding:1rem 3rem;
+ }
+ 
+ .btn:hover{
+    letter-spacing: .2rem;
+ }
+ 
+ .header{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--box-shadow);
+    position: sticky;
+    top:0; left:0; right: 0;
+    background: var(--white);
+    z-index: 1000;
+ }
+ 
+ .header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:var(--black);
+ }
+ 
+ .header .logo i{
+    color:var(--peru);
+    padding-right: .5rem;
+ }
+ 
+ .header .navbar a{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color:var(--light-black);
+ }
+ 
+ .header .navbar a:hover{
+    color:var(--peru);
+ }
+/* MAIN */
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="time"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    background-color: #f38d00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #e57800;
+  }  
+
+
+ /*footer*/
+ .footer{
+    text-align: center;
+    height: 250px;
+    background-color: #ede7e7;
+    margin-top: 90px;
+ }
+ 
+ .footer .icons-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+    margin-bottom: 50px;
+ }
+ 
+ .footer .icons-container .icons{
+    text-align: center;
+    padding: 3rem 2rem;
+    
+ }
+ 
+ .footer .icons-container .icons i{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background: var(--peru);
+    color: var(--white);
+    margin-bottom: 1rem;
+    line-height: 5.7rem;
+    font-size: 2rem;
+ }
+ 
+ .footer .icons-container .icons h3{
+    font-size: 2rem;
+    color: var(--black);
+    padding: 1rem 0;
+ }
+ 
+ .footer .icons-container .icons p{
+    line-height: 1.5rem;
+    font-size: 1.7rem;
+    color: var(--light-black);
+    text-transform: none;
+    margin-bottom: .5rem;
+ }
+ 
+ .footer .share{
+    margin: 2rem 0;
+ }
+ 
+ .footer .share a{
+    height: 6rem;
+    width: 6rem;
+    line-height: 5.8rem;
+    background: var(--black);
+    color: var(--white);
+    margin: 0 .3rem;
+    font-size: 2.5rem;
+ }
+ 
+ .footer .share a:hover{
+    background: var(--peru);
+ }
+ 
+ .footer .credit{
+    padding-top: 2rem;
+    margin-top: 3rem;
+    border-top: var(--border);
+    font-size: 2rem;
+    color: var(--light-black);
+ }
+ 
+ .footer .credit span{
+    color: var(--peru);
+ }
+ 

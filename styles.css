@@ -381,213 +381,27 @@ section{
  .gallery .gallery-container .box:hover .icon{
     display: flex;
  }
+/*BLOG*/
 
- .menu{
-    background: var(--light-bg);   
- }
- 
- .menu .slide .title{
-    padding: 1rem;
-    font-size: 3rem;
-    color: #fff;
-    background: rgb(187, 187, 147);
-    margin-bottom: 3rem;
-    text-align: center;
- }
- 
- .menu .slide .box-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-bottom: 4rem;
- }
- 
- .menu .slide .box-container .box{
-    flex: 1 1 41rem;
-    background: var(--white);
-    padding: 2rem;
-    box-shadow: var(--box-shadow);
-    border: var(--border);
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    justify-content: space-between;
-    border-radius: 30px;
- }
- 
- .menu .slide .box-container .box h3{
-    font-size: 3.5rem;
-    color: rgb(9, 44, 5);
-    padding-bottom: .5rem;
- }
- .menu .slide .box-container .box p{
-    font-size: 1.6rem;
-    color: var(--light-black);
-    line-height: 2;
- }
- 
- .menu .slide .box-container .box .price{
-    font-size: 3.5rem;
-    color: var(--peru);
- }
- 
- .menu .slide .box-container .box:hover{
-    transform: scale(.9);
-    cursor: pointer;
- }
- 
-
-.blogs{
-    background: var(--light-bg);
- }
- 
- .blogs .slide .image{
-    height: 25rem;
-    overflow: hidden;
-    position: relative;
- }
- 
- .blogs .slide .image img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
- }
- .blogs .slide .image span{
-    position: absolute;
-    bottom: -10rem; left: 50%;
-    transform: translateX(-50%);
-    padding: 1rem 1.5rem;
-    font-size: 2rem;
-    color: var(--white);
-    background: var(--black);
- }
- 
- .blogs .slide:hover .image span{
-    bottom: 1rem;
- }
- 
- .blogs .slide:hover .image img{
-    transform: scale(1.1);
- }
- 
- .blogs .slide .content{
-    padding: 2rem;
-    background: var(--white);
-    box-shadow: var(--box-shadow);
-    border: var(--border);
-    margin-bottom: 4rem;
- }
- 
- .blogs .slide .content .icon{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 2rem;
- }
- 
- .blogs .slide .content .icon a{
-    font-size: 1.5rem;
-    color: var(--light-black);
- }
- 
- .blogs .slide .content .icon a i{
-    padding-right: .7rem;
-    color: var(--peru);
- }
- 
- .blogs .slide .content .icon a:hover{
-    color: var(--peru);
- }
- 
- .blogs .slide .content .title{
-    font-size: 2.5rem;
-    color: var(--black);
- }
- 
- .blogs .slide .content .title:hover{
-    text-decoration: underline;
- }
- 
- .blogs .slide .content p{
-    padding: 1rem 0;
-    line-height: 2;
-    font-size: 1.6rem;
-    color: var(--light-black);
- }
-
-/*reservation*/
-.reservation {
-    background-color: #030303;
-    padding: 50px 0;
-    color : white;
-}
-
-.reservation-container {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.reservation-container h2 {
-    margin-bottom: 20px;
-    font-size: 35px;
-}
-
-form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    text-align: left;
-    font-size: 15px;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-label {
-    font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="date"],
-input[type="time"],
-input[type="number"],
-.reservation button {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.reservation-container .submitbtn {
-    background-color: #ff6347;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-left: 250px;
-}
-
-.reservation button:hover {
-    background-color: #e74c3c;
-}
 
  /*footer*/
  .footer{
     text-align: center;
+    height: 250px;
+    background-color: #ede7e7;
  }
  
  .footer .icons-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 2rem;
+    margin-bottom: 50px;
  }
  
  .footer .icons-container .icons{
     text-align: center;
     padding: 3rem 2rem;
+    
  }
  
  .footer .icons-container .icons i{

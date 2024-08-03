@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodie</title>
+
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <!-- header section starts     -->
+
+    <section class="header">
+
+        <a href="index.html" class="logo"> <i class="fas fa-utensils"></i> foodie. </a>
+    
+        <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="index.html">about</a>
+        <a href="index.html">gallery</a>
+        <a href="menu.html">Menu</a>
+        <a href="reservation.html">Reseveration</a>
+
+
+        </nav>
+    
+    </section>
+
+<!-- header section ends    -->
+
+<!---main---->
+<h1>BOOK A TABLE NOW!!!</h1>
+<div class="container">
+    
+    <form id="reservation-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Format: 123-456-7890" required>
+      </div>
+      <div class="form-group">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+      <div class="form-group">
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required>
+      </div>
+      <div class="form-group">
+        <label for="party-size">Party Size:</label>
+        <select id="party-size" name="party-size" required>
+          <option value="1">1 person</option>
+          <option value="2">2 people</option>
+          <option value="3">3 people</option>
+          <option value="4">4 people</option>
+          <option value="5">5 people</option>
+          <option value="6">6 people</option>
+          <option value="7">7 people</option>
+          <option value="8">8 people</option>
+          <option value="9">9 people</option>
+          <option value="10">10 people</option>
+        </select>
+      </div>
+      <button type="submit">Make Reservation</button>
+    </form>
+  </div>
+
+
+  <!-- footer section starts-->
+ 
+ 
+ <div class="footer">
+ 
+    <div class="icons-container">
+ 
+       <div class="icons">
+          <i class="fas fa-clock"></i>
+             <h3>opening hour</h3>
+             <p>07:00am to 10:00pm</p>
+       </div>
+ 
+       <div class="icons">
+          <i class="fas fa-envelope"></i>
+             <h3>email</h3>
+             <p>Restaurant@gmail.com</p>
+             <p>chief@gmail.com</p>
+       </div>
+ 
+       <div class="icons">
+          <i class="fas fa-map"></i>
+             <h3>address</h3>
+             <p>Karnataka, India</p>
+       </div>
+ 
+    </div>
+
+    <div class="share">
+       <a href="https://web.facebook.com/olumide.micheal.733" target="_blank" class="fab fa-facebook-f"></a>
+       <a href="https://twitter.com/OlumideMicheal_" target="_blank" class="fab fa-twitter"></a>
+       <a href="https://www.instagram.com/olumidemicheal_/?hl=en" target="_blank" class="fab fa-instagram"></a>
+       <a href="https://www.linkedin.com/in/olumide-micheal-650b001b2/" target="_blank" class="fab fa-linkedin"></a>
+    </div>
+
+    <div class="credit" >2023 | all rights reserved.</div>
+
+</div>
+
+
+<!-- footer section ends-->
+
+  <script src="reservation.js"></script>
+</body>
+</html>
+
+
+
+    
